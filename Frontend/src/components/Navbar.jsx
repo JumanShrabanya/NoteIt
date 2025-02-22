@@ -24,7 +24,7 @@ const Navbar = () => {
           toggleShow();
         }}
         customStyles={
-          "bg-background text-white font-medium border-[1px] border-zinc-50 border-opacity-20 hover:border-opacity-40 transition-all duration-200"
+          "bg-background text-white font-medium border-[1px] border-zinc-50 border-opacity-20 hover:border-opacity-40 transition-all duration-200 select-none"
         }
       />
     </nav>
