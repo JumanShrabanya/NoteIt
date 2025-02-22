@@ -13,7 +13,7 @@ const Homepage = () => {
         <NoteCard />
         <NoteCard />
         <NoteCard />
-      </div>
+      </div>  
     </section>
   );
 };
