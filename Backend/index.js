@@ -11,9 +11,8 @@ mongoose
   .connect(mongo_uri)
   .then(() => {
     console.log("successfully connected to mongodb");
+    app.listen(port, () => console.log(`Server is running on port ${port}`));
   })
   .catch((err) => {
     console.log("Mongodb Connection failed", console.log(err));
   });
-
-app.listen(port, () => console.log(`Server is running on port ${port}`));
